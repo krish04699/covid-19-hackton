@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title> Apply
+            </title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            
+            <script src="/javascript/apply.js"></script>
+            <link rel="stylesheet" type="text/css" href="stylesheet/apply.css"/>
+            
+        </head>
+        <body>
+
+            <div class="topnav" id="myTopnav">
+                <a href="/mainpage.html" >Home</a>
+               
+                <a href="/mainpage.html">How to Apply</a>
+                <a href="#help">Help</a>
+                <a href="operatorlogin.html" id="operator">Operator Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+                </div>
+            <div class="outercontainer">
+
+                <div class="container" >
+         
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 style="text-align: center;"> Vehicle Pass </h2>
+                            
+            
+             <form name="myForm" >                
+                <table id="box" style="padding-top: 5px;">
+                <tr>
+                    <td id="t"> Select your District:</td>
+              <td id="a">  <select id="district">
+                    <option value="select selected">Select</option>
+                  <option value="chennai">Chennai</option>
+                  <option value="coimbatore">Coimbatore</option>
+                  <option value="madurai">Madurai</option>
+                  <option value="tiruchy">Tirchy</option>
+                  <option value="dindigul">Dindigul</option>
+                  <option value="erode">Erode</option>
+                  <option value="cuddalore">Cuddalore</option>
+                  <option value="dharmapuri">Dharmapuri</option>
+                  <option value="nagapattinam">Nagapattinam</option>
+                  <option value="namakkal">Namakkal</option>
+                  <option value="perambalur">Perambalur</option>
+                  <option value="pudukottai">Pudukottai</option>
+                  <option value="ramanathapuram">Ramanathapuram</option>
+                  <option value="salem">Salem</option>
+                  <option value="sivagangai">Sivagangai</option>
+                  <option value="thanjavur">Thanjavur</option>
+                  <option value="theni">Theni</option>
+                  <option value="nilgiris">Nilgiris</option>
+                  <option value="tirunelveli">Tirunelveli</option>
+                  <option value="thiruvallur">Thiruvallur</option>
+                  <option value="thiruvannamalai">Thiruvannamalai</option>
+                  <option value="thiruvarur">Thiruvarur</option>
+                  <option value="thoothukudi">Thoothukudi</option>
+                  <option value="tiruppur">Tiruppur</option>
+                  <option value="vellore">Vellore</option>
+                  <option value="villupuram">Villupuram</option>
+                  <option value="virudhunagar">Virudhunagar</option>
+                  <option value="ariyalur">Ariyalur</option>
+                  <option value="kancheepuram">Kancheepuram</option>
+                  <option value="kanniyakumari">Kanniyakumari</option>
+                  <option value="karur">Karur</option>
+                  <option value="krishnagiri">Krishnagiri</option>
+                  <option value="kallakkurichi">Kallakkurichi</option>
+                  <option value="thenkasi">Thenkasi</option>
+                  <option value="chengalpattu">Chengalpattu</option>
+                  <option value="ranipet">Ranipet</option>
+                  <option value="thirupattur">Thirupattur</option>
+             
+                </select></td>
+            </tr>
+           <tr><td id="t"> Select your Type</td>
+                <td id="a"><select id="type">
+                    <option value="govt">Government Employee</option>
+                    <option value="private">Private Employee</option>
+                    <option value="public">Other Purpose</option>
+                </select></td>
+          </tr>
+        
+
+<tr>
+        <td id="t"><label for="pdate">Permission Date</label></td>
+                <td id="a"><input type="date" id="pdate" name="pdate"></td></tr>
+            
+
+            <tr>
+                <td id="t"><label for="ptime">Permission Time</label></td>
+                        <td id="a"><input type="time" id="ptime" name="ptime" placeholder="Enter Date and Time.."></td></tr>
+                    
+              <tr>  <td id="t"><label for="fplace">From place</label></td>
+               <td id="a"> <input type="text" id="fplace" name="fplace" placeholder="Enter Start Location">
+            <p id="ffplace"> </p></td>
+            </tr>
+
+              <tr> <td id="t"> <label for="tplace">To Place</label> </td>
+               <td id="a"> <input type="text" id="tplace" name="tplace" placeholder="Enter End Location..">
+                <p id="ttplace"></p></td>
+             </tr>
+
+              <tr> <td id="t"> <label for="purpose">Permission Purpose</label></td>
+               <td id="a"> <input type="text" id="purpose" name="purpose" placeholder="Enter Permission Purpose">
+                <p id="ppurpose"></p></td>
+            </tr>
+
+            
+
+           <tr><td id="t"> <label for="vnumber">Vehicle Registration Number </label></td>
+           <td id="a"> <input type="text" id="vnumber" name="vnumber" placeholder="Enter Vehicle Number..">
+            <p id="vvnumber"></p></td>
+        </tr>
+         <tr>
+             <td id="t">   <label for="vname">Vehicle Type & Name</label></td>
+        <td id="a">    <input type="text" id="vname" name="vname" placeholder="Vehicle Name and Type..">
+            <p id="vvname"></p></td>
+        </tr>
+        
+
+           <tr> <td id="t"><label for="nperson">Number of Person </label></td>
+           <td id="a"> <input type="text" id="npersonr" name="nperson" placeholder="number of person  ">
+            <p id="nnperson"></p></td>
+            </br></br></tr>
+            <tr>
+                <td id="a" ><INPUT id="but"type="button" value="Add Person" onclick="addperson('persondetail')" /></td>
+                <td id="a" ><INPUT id="but" type="button" value="Remove Person" onclick="deleteperson('persondetail')" /></td>
+                </tr>
+        </table>
+            
+            <TABLE class="in" id="persondetail"  >
+                
+                <TR>
+                    <TD ><INPUT type="checkbox" name="chk"/></TD>
+                    <TD ><INPUT type="text" style="width: 180px;" id="pname"name="pname" placeholder="Enter Person Name ">
+                        <p id="ppname"></p></TD>
+                    <TD>
+                        <SELECT style="width: 100px;"id="gender" name="gender" >
+                            <option value="select selected" >Gender</option>
+                            <OPTION value="male" >Male</OPTION>
+                            <OPTION value="female">Female</OPTION>
+                            <OPTION value="transgender">Transgender</OPTION>
+                        </SELECT>
+                    </TD>
+                    <td ><input type="number" style="width: 70px;"id="age" name="age" placeholder="Age "><p id="aage"></p></td>
+                    <td ><input type="number" style="width: 160px";id="aadhar" name="aadhar" placeholder="Enter Aadhar Number "><p id="adh"></p></td>
+                    <td ><input type="number" style="width: 150px;" id="phn" name="phn" placeholder="Enter Phone Number "><p id="pphn"></p></td>
+                </TR>
+            </TABLE>
+
+
+        </br>
+
+        </br>
+
+                
+                <button type="button" id="submit" onclick="validateForm()">Submit</button>
+              </form>
+
+              </div>
+                 </div>
+            </div>
+            </div>
+
+            <div class="help1">
+                <div class="container" id="help">
+                <h3 style="text-align:center">Help Line</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <p style="margin-left: 120px;">Toll free Number -----------</p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+
+            </body>
+
+    </html>

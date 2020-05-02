@@ -1,0 +1,193 @@
+
+.topnav {
+    overflow: hidden;
+    background-color:brown;
+    font-weight: bold;
+  }
+  
+  .topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    display: block;
+    color: honeydew;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+   
+  }
+  
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: red;
+    text-decoration: none;
+  }
+  
+  .topnav a.active {
+    background-color: crimson;  
+    color: wh;
+      
+  }
+
+
+  .topnav .icon {
+    display: none;
+    
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    
+    .topnav.responsive {position: relative;
+    }
+    .topnav.responsive .icon {
+      
+      position: absolute;
+      right: 10;
+      top: 10;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      
+      
+    }
+  }
+
+
+
+  .outset
+  {
+   
+   
+   border-radius: 15px;
+   margin-top: 5px;
+   
+   
+   padding-top: 20px;
+   
+   
+   border: 1px solid;
+   border-style: outset;
+    background-color: wheat;
+     
+
+   } 
+
+   .im
+   {
+     height:500px;
+     margin-top: 50px;
+     
+   }
+   .small{
+     height:100px;
+     width:100%;
+     margin-bottom: 0px;
+   }
+   h3,h4{
+     margin-top: 7px;
+     text-align: center;
+   }
+
+   #imgslider
+   {
+      
+       height: 600px;
+       width:600px;
+   }
+
+
+.box
+{
+    height: 600px;
+    width: 120px;
+    margin-top: 70px;
+  margin-left: 5px;
+}
+
+#apply
+{
+    border-radius: 12px;
+    color: antiquewhite;
+    background-color:brown;
+    font-size:18px;
+   text-align: center;
+   padding-top: 8px;
+    
+    font-weight: bold;
+    height: 50px;
+    width: 120px;
+    text-decoration: none;
+    display: block;
+}
+#apply:hover{
+    color: brown;
+    background-color: mintcream;
+    font-weight: bold;
+    border-color:brown;   
+}
+#check
+{
+    display: block;
+    border-radius: 12px;
+    color: antiquewhite;
+    background-color: brown;
+    height:50px;
+    width:120px;
+    font-size:18px;
+    padding-top: 8px;
+    padding-left: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#check:hover{
+    color: brown;
+    background-color: mintcream;
+    font-weight: bold;
+    border-color:brown;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+
+  .ins
+  {
+     
+     height: 300px;
+     margin-top: 15px;
+     margin-left: 15px;
+     margin-right: 15px;
+     padding: 15px 15px;
+     margin-bottom: 45px;
+        
+  }
+  
+
+
+
+
+  .help1
+  {
+    height:150px;
+        background-color:brown;
+        color: white;
+        border-radius: 15px;
+        margin-bottom:25px;
+  }
+  
